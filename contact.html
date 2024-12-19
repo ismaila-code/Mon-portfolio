@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles-contact.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="competences.html">Compétences</a></li>
+     <li><a href="projets.html">Projets</a></li>
+    <li><a href="apropos.html">À propos</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+</ul>
+</nav>
+</header>
+    <main>
+        <section class="contact-section">
+            <h1>Contactez-moi</h1>
+            <p>Pour toute demande, veuillez remplir le formulaire ci-dessous :</p>
+            
+            <form action="#" method="POST" class="contact-form">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required placeholder="Votre nom">
+
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required placeholder="Votre prénom">
+                
+                <label for="psw">Mot de passe :</label>
+                <input type="password" id="psw" name="psw" required placeholder="Votre mot de passe">
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required placeholder="Votre email">
+                
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Votre message"></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Politique de confidentialité</a> | 
+            <a href="#">Conditions d'utilisation</a>
+        </div>
+        <div class="reseaux-sociaux">
+            <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script-contact.js"></script>
+
+</body>
+</html>

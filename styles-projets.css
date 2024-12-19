@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-image: url('img/2.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f4f4f4;
+    color: #e4d8d8;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color: #333;
+    padding: 15px 20px;
+    margin: 0;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #039be5;
+    border-radius: 5px;
+}
+
+main {
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #2a3d66;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #1e2a38;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+main div {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+footer .footer-links a:hover {
+    color: #039be5;
+}
+
+.reseaux-sociaux {
+    margin-top: 15px;
+}
+
+.reseaux-sociaux a {
+    margin: 0 10px;
+}
+
+.reseaux-sociaux img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease;
+}
+
+.reseaux-sociaux img:hover {
+    transform: scale(1.1);
+}

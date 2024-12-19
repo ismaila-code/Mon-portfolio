@@ -1,0 +1,142 @@
+/* ----------------------------------
+   Styles globaux
+---------------------------------- */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-image: url('img/2.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f0e8e7;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* ----------------------------------
+   Header et navigation
+---------------------------------- */
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover, 
+header nav ul li a.active {
+    background-color: #444;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* ----------------------------------
+   Section Contact
+---------------------------------- */
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.contact-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* ----------------------------------
+   Formulaire de contact
+---------------------------------- */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 1em;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+form button {
+    background-color: #6d6360;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #756c69;
+}
+
+/* ----------------------------------
+   Footer
+---------------------------------- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1b1a1a;
+    color: white;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.reseaux-sociaux img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+.reseaux-sociaux img:hover {
+    transform: scale(1.1);
+}
